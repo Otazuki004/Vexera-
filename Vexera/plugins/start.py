@@ -1,4 +1,7 @@
+
 from Vexera import TBOT as tbot
+TBOT.run()
+
 from Vexera.events import register
 from telethon import Button
 
