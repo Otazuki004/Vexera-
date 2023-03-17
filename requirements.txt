@@ -10,7 +10,7 @@ ffmpeg-python
 pyrogram
 youtube-search-python==1.4.9
 yt_dlp
-telethon
+telethon==1.24.0
 youtube_dl
 youtube-search
 python-dotenv
