@@ -66,6 +66,6 @@ UBOT = Client(session_string=SESSION, api_id=API_ID, api_hash=API_HASH, name="UB
 #userbot
 
 print("[Vexera]: TELETHON CLIENT STARTING")
-TBOT = TelegramClient(MemorySession(), API_ID, API_HASH, plugins=dict(root="{}/plugins".format(__mod__)))
+TBOT = TelegramClient(MemorySession(), API_ID, API_HASH, plugins=dict(root="{}/plugins".format(__doc__)))
 
 #telethonbot
