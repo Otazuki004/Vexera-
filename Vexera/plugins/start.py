@@ -44,4 +44,4 @@ Try The Help Button To Lnow My Powers⚡
 ]
     await tbot.send_file(event.chat_id, VV, caption=START, buttons=buttons)
     
-    __name__ = start
+    __main__ = start
