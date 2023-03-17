@@ -1,6 +1,6 @@
 from telethon import events
 
-from Vexera import TBOT
+from Vexera import TBOT as tbot
 
 
 def register(**args):
