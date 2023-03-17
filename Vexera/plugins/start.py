@@ -1,7 +1,5 @@
 
 from Vexera import TBOT as tbot
-TBOT.run()
-
 from Vexera.events import register
 from telethon import Button
 
@@ -46,4 +44,4 @@ Try The Help Button To Lnow My Powers⚡
 ]
     await tbot.send_file(event.chat_id, VV, caption=START, buttons=buttons)
     
-    __main__
+    __name__ = start
