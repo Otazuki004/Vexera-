@@ -1,5 +1,5 @@
 from Vexera import TBOT
-from Hydra.events import register
+from Vexera.events import register
 
 @register(pattern=("/help"))
 async def awake(event):
