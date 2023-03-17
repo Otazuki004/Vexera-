@@ -1,0 +1,48 @@
+{
+      "name": "Vexera",
+      "description": "An Anime themed Telegram Grp-Mange and userbot.",
+      "logo": "https://telegra.ph/file/af2a44b84e649a0a60679.jpg",
+      "keywords": [
+         "telegram",
+         "anime",
+         "telethon",
+         "userbot",
+         "Pyrogram"
+      ],   
+   "repository": "https://github.com/Otazuki004/Pyrogram",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "BOT_TOKEN": {
+         "description": "Your bot token. Get one from @BotFather",
+         "required": true,
+         "value": "5641878112:AAFM1_UjyNKT1AFz9foXva-jNJJ6PVN7jm0"
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "10187126"
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "ff197c0d23d7fe54c89b44ed092c1752"
+      },    
+      "SESSION": {
+         "description": "Your Pyrogram String Session.",
+         "required": true,
+         "value": "BQCwMWd2k5wIpiInh_6vCwwRAC0mHkxc6KFS0D1O5K8FjxDrbh9NgSA2tUQChB1gRUqGsXsBNGVtDGvtWs-Q7kzcS6_2jGpoHck9zIyNET1S3ZAnWNMMb6k-oRr07VPjIAQ-wArL9iqfAfSq3kVm5F_R-PPLXWoTmvtxgP5oyEIPxt6B0lKZNKTMgSD-zvaNprF0qyRy-iseIME6D9buYXKmhcCtf1aE71oAXTjJPePZ1QlSNBi5RAKH3CAwdGH1Va8xTMHL1a0RXv86_W7I4iQJrCQnbZ1YZcrJqPP5RZFfehNgphROGEW5M-NwDtQlw1ePNFkLyqtJAfIvAG9plyQIdlrZPQA"
+     },
+     "OWNER_ID": {
+         "description": "Enter The Owner Id",
+         "required": false,
+         "value": " "
+      }  
+         }
+      }
