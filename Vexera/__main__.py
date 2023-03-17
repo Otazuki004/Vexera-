@@ -6,7 +6,7 @@ if __name__ == "__main__":
     with BOT:
         BOT.send_message("-1001768984791", "Pyrogram Client Started")
         
-    TBOT.start(BOT_TOKEN)
+    TBOT.start(bot_token=BOT_TOKEN)
     #start message 
     
     #ubot is Userbot
