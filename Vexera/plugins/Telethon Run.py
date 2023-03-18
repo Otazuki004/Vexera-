@@ -73,3 +73,6 @@ async def aexec(code, smessatatus):
         + "".join(f"\n {l}" for l in code.split("\n"))
     )
     return await locals()["__aexec"](message, reply, client, p)
+
+__name__ == run
+__name__ = run1
