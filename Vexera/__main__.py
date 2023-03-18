@@ -25,7 +25,6 @@ if __name__ == "__main__":
     TBOT.start(bot_token=BOT_TOKEN)
     TBOT.send_file(-1001768984791, PHOTO, caption=START)
  #start message 
-    main()
     #UBOT is Userbot client 
 #TBOT is Telethon client
 #BOT is pyrogram client 
