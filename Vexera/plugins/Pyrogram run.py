@@ -87,3 +87,6 @@ async def aexec(code, client, message):
     )
     return await locals()["__aexec"](client, message)
 #vexera
+
+__name__ = run
+__name__ == run
