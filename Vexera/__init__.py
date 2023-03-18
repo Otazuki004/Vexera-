@@ -2,7 +2,7 @@ import logging
 import os
 import time
 
-from aiohttp import ClientSession
+
 from pyrogram import Client
 from telethon import TelegramClient
 from telethon.sessions import MemorySession, StringSession
@@ -46,9 +46,6 @@ SESSION = os.environ.get("SESSION", None)
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 OWNER_ID = os.environ.get("OWNER_ID", None)
 
-# install aiohttp session
-print("[Vexera] Initializing AIOHTTP Session")
-aiohttpsession = ClientSession()
 
 
 print ("[Vexera] Pyrogram Starting")
