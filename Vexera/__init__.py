@@ -54,7 +54,7 @@ BOT = Client(
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="{}/plugins".format(__name__)),
+    plugins=dict(root="Vexera"),
 )
 #bot
 print ("[Vexera] UserBot Starting..")
