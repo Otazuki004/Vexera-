@@ -17,7 +17,6 @@ Vᴇxᴇʀᴀ Տᴛᴀʀᴛᴇᴅ Տᴜᴄᴄᴇssғᴜʟʟʏ
 ➛ Try Me I Have Cool Features 💖 ××
 """
 if __name__ == "__main__":
-    UBOT.start()
     BOT.run()
     with BOT:
         BOT.send_message("-1001768984791", "Pyrogram Client Started")
