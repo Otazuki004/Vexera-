@@ -74,5 +74,3 @@ async def aexec(code, smessatatus):
     )
     return await locals()["__aexec"](message, reply, client, p)
 
-__name__ == run
-__name__ = run1
