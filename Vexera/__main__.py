@@ -18,8 +18,6 @@ Vᴇxᴇʀᴀ Տᴛᴀʀᴛᴇᴅ Տᴜᴄᴄᴇssғᴜʟʟʏ
 """
 if __name__ == "__main__":
     BOT.run()
-    with BOT:
-        BOT.send_message("-1001768984791", "Pyrogram Client Started")
         
     TBOT.start(bot_token=BOT_TOKEN)
     TBOT.send_file(-1001768984791, PHOTO, caption=START)
