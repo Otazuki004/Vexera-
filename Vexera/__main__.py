@@ -17,7 +17,6 @@ Vᴇxᴇʀᴀ Տᴛᴀʀᴛᴇᴅ Տᴜᴄᴄᴇssғᴜʟʟʏ
 ➛ Try Me I Have Cool Features 💖 ××
 """
 if __name__ == "__main__":
-    BOT.run()
         
     TBOT.start(bot_token=BOT_TOKEN)
  #start message 
