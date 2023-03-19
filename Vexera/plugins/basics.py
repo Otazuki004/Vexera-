@@ -1,5 +1,5 @@
 from pyrogram import filters
-from Vexera import Bot
+from Vexera import BOT as Bot
 
 
 @Bot.on_message(filters.command("start"))
