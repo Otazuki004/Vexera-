@@ -16,6 +16,13 @@ Vᴇxᴇʀᴀ Տᴛᴀʀᴛᴇᴅ Տᴜᴄᴄᴇssғᴜʟʟʏ
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try Me I Have Cool Features 💖 ××
 """
+
+
+@Bot.on_message(filters.command("pyro start"))
+async def pyro_start(_, message):
+   await message.reply_text("Pyro has been Started Already.")
+
+
 if __name__ == "__main__":
     BOT.run()
     with BOT:
