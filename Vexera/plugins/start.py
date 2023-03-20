@@ -47,5 +47,5 @@ def start(bot, message):
     message.reply(
     text=text,
     reply_markup=reply_markup,
-    disable_web_page_preview=True
+    disable_web_page_preview=False
 )
