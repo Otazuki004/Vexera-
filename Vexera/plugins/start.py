@@ -1,6 +1,6 @@
 from Vexera import BOT as bot
 from pyrogram import filters
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
 START = f"""
