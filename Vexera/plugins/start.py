@@ -1,4 +1,4 @@
-from Vexera.__init__ import BOT as bot
+from Vexera import BOT as bot
 from pyrogram import filters
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
