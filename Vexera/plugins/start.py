@@ -42,8 +42,8 @@ buttons = [
 
 @bot.on_message(filters.command("start") & filters.private)
 def start(bot, message):
-    text = START_MESSAGE
-    reply_markup = InlineKeyboardMarkup (START_MESSAGE_BUTTONS)
+    text = START
+    reply_markup = InlineKeyboardMarkup (buttons)
     message.reply(
     text=text,
     reply_markup=reply_markup,
