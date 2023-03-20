@@ -21,7 +21,7 @@ Send Help To know My Ultra Powers⚡
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"[► Add Hydra To Your Group ◄]",
+            text=f"[► Add Vexera To Your Group ◄]",
             url=f"https://telegram.dog/Vexera_50_bot?startgroup=true",
         )
     ],
