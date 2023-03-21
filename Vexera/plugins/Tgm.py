@@ -38,7 +38,7 @@ async def telegraph(client, message):
     else:
         await message.reply(
             f"""
-**Yᴏᴜʀ Lɪɴᴋ👉 'https://telegra.ph{response[0]}'♡︎♡︎♡︎
+**Yᴏᴜʀ Lɪɴᴋ👉 ' https://telegra.ph{response[0]} '♡︎♡︎♡︎
 
 Jᴏɪɴ Us♡︎
 
