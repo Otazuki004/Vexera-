@@ -11,11 +11,11 @@ logging.basicConfig(
     level=logging.INFO)
 
 
-API_ID = os.environ.get("API_ID", None)
-API_HASH = os.environ.get("API_HASH", None)
-SESSION = os.environ.get("SESSION", None)
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-OWNER_ID = os.environ.get("OWNER_ID", None)
+API_ID = os.getenv("API_ID")
+API_HASH = os.getenv("API_HASH")
+SESSION = os.getenv("SESSION")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+OWNER_ID = os.getenv("OWNER_ID")
 
 
 
