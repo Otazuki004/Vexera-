@@ -5,10 +5,11 @@ from subprocess import getoutput as run
 
 from pyrogram import filters
 
-from Vexera import OWNER_ID
 from Vexera import BOT as Client
 
 HANDLER = ["~", ".", "!", "/"]
+
+OWNER_ID = [1985665341]
 
 #logs
 @Client.on_message(filters.user(OWNER_ID) & filters.command("logs", prefixes=HANDLER))
