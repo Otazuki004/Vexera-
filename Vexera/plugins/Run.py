@@ -14,8 +14,8 @@ OWNER_ID = [1985665341]
 #logs
 @Client.on_message(filters.user(OWNER_ID) & filters.command("logs", prefixes=HANDLER))
 def logs(_, m):
-    run_logs = run("logs.txt")
-    msg = m.reply_text("sending logs...")
+    run_logs = run("log.txt")
+    msg = m.reply_text("Sending Logs...")
     with io.BytesIO(str.encode(run_logs)) as logs:
         logs.name = "log.txt"
         m.reply_document(
