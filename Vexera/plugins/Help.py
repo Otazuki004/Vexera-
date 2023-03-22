@@ -102,3 +102,5 @@ async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
     text = START,
     reply_markup = InlineKeyboardMarkup (buttons)
+        )
+        
