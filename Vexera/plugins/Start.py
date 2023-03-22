@@ -45,7 +45,7 @@ async def cbbasic(_, query: CallbackQuery):
     )
 
 
-START = f"""
+START = f"""**
 ────「 [Vexera](https://graph.org//file/3650014818cd34600f408.jpg) 」────
 Hᴇʏ, User!!
 I ᴀᴍ Vᴇxᴇʀᴀ I Hᴀᴠᴇ Cᴏᴏʟ Fᴇᴡᴛᴜʀᴇs
@@ -58,7 +58,7 @@ Pᴀᴛᴄʜ Nᴀᴍᴇ : Bᴇᴛᴀ
 Nᴇxᴛ Pᴀᴛᴄʜ Dᴀᴛᴇ : 30:4:23
 Nᴇxᴛ Pᴀᴛᴄʜ Nᴀᴍᴇ : Ultra
 
-Send Help To know My Ultra Powers⚡
+Click Help To know My Ultra Powers⚡**
 """
 buttons = [
     [
