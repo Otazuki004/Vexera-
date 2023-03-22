@@ -75,7 +75,7 @@ buttons = [
             text="𓆩𝗧ᴏᴏɴ 𝗟ɪɴᴋᴢ𓆪", url="https://telegram.dog/Toon_LinkZ"
         ),
 
-InlineKeyboardButton("Help, 
+InlineKeyboardButton("Help", 
 callback_data="help"),
     ],
     [
