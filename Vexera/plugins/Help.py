@@ -4,7 +4,7 @@ from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
 
 punda = [
     [
-InlineKeyboardButton("Go Main Page", 
+InlineKeyboardButton("Go Main Page🔙", 
 callback_data="start"),
     ],
     [
@@ -73,7 +73,7 @@ buttons = [
             text="𓆩𝗧ᴏᴏɴ 𝗟ɪɴᴋᴢ𓆪", url="https://telegram.dog/Toon_LinkZ"
         ),
 
-InlineKeyboardButton("Help", 
+InlineKeyboardButton("📚 Help", 
 callback_data="help"),
     ],
     [
