@@ -6,7 +6,6 @@ punda = [
     [
 InlineKeyboardButton("Go Main Page", 
 callback_data="start"),
-        )
     ],
     [
         
