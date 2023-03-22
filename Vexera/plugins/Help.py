@@ -4,12 +4,12 @@ from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMa
 
 punda = [
     [
-InlineKeyboardButton("Go Main Page🔙", 
-callback_data="start"),
+InlineKeyboardButton("DEV COMMANDS💖", 
+callback_data="dhelp"),
     ],
     [
         
-InlineKeyboardButton("DEV COMMANDS", 
+InlineKeyboardButton("Back 🔙", 
 callback_data="dhelp"),
     ],
 ]
