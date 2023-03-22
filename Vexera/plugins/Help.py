@@ -41,9 +41,7 @@ async def cbbasic(_, query: CallbackQuery):
 /tm - Reply a media To Get telegra.ph link
 **
 """,
-        reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔙 Go Back", callback_data="start")]]
-        ),
+        reply_markup=InlineKeyboardMarkup (punda),
     )
 
 
