@@ -39,6 +39,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 /id - Get a User Id/Chat ID💖
 /tm - Reply a media To Get telegra.ph link
+/dice - Bot send you random dice
 **
 """,
         reply_markup=InlineKeyboardMarkup (punda),
