@@ -15,19 +15,19 @@ async def alive(_, message):
     otha = await HS.send_photo(message.chat.id, "https://telegra.ph/file/01bbb33d37c1f4f12c55e.jpg")
     await otha.edit_caption(load)
     await asyncio.sleep(3)
-    await otha.edit_caption(f"""Hᴇʏ Usᴇʀ,\n ɪ ᴀᴍ ᴀʟɪᴠᴇ
+    await otha.edit_caption(f"""Hᴇʏ Usᴇʀ, ɪ ᴀᴍ ᴀʟɪᴠᴇ
 
-★━━━━━━━━━━━━━━━━━★
+» **About Me**
 
-» ᴍʏ Dᴇᴠʟᴏᴘᴇʀ : Oᴛᴀᴢᴜᴋɪ
+» 𝐌ʏ 𝐃ᴇᴠʟᴏᴘᴇʀ : 𝐎ᴛᴀᴢᴜᴋɪ
 
-» ᴘʏʀᴏɢʀᴀᴍ ᴠɪʀsᴏɴ : {pyrover}
+» 𝐏ʏʀᴏɢʀᴀᴍ 𝐕ᴇʀsɪᴏɴ : 2.0.106
 
-» ᴏᴡɴᴇʀ : 𝗛ʏᴘᴇʀ 𝗦ᴘᴇᴇᴅ™
+» 𝐎ᴡɴᴇʀ : 𝗛ʏᴘᴇʀ 𝗦ᴘᴇᴇᴅ™
 
-» ʀᴇᴘᴏ : [Here](http://github.com/Otazuki004/Vexera-)
+» 𝐑ᴇᴘᴏ : http://github.com/Otazuki004/Vexera-
 
-★━━━━━━━━━━━━━━━━━★""")
+★━━━━━━━━━━━━━━★""")
 
 
 @HS.on_message(filters.command("ping"))
