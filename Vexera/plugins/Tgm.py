@@ -43,7 +43,7 @@ async def telegraph(client, message):
 Jᴏɪɴ Us♡︎
 
 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 : @FutureCity005
-𝐔𝐩𝐝𝐚𝐭𝐞𝐬 : @Updates004
+𝐔𝐩𝐝𝐚𝐭𝐞𝐬 : @Hyper_Speed0
 **
 """,
             disable_web_page_preview=True,
