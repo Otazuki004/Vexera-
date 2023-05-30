@@ -20,11 +20,10 @@ async def alive(_, message):
 » **About Me**
 
 » 𝐌ʏ 𝐃ᴇᴠʟᴏᴘᴇʀ : 𝐎ᴛᴀᴢᴜᴋɪ
-
+» 𝐀ʙᴏᴜᴛ : A Pᴏᴡᴇʀғᴜʟʟ Tᴇʟᴇɢʀᴀᴍ ʙᴏᴛ Mᴀᴅᴇ Usɪɴɢ Pʏʀᴏɢʀᴀᴍ
 » 𝐏ʏʀᴏɢʀᴀᴍ 𝐕ᴇʀsɪᴏɴ : 2.0.106
-
 » 𝐎ᴡɴᴇʀ : 𝗛ʏᴘᴇʀ 𝗦ᴘᴇᴇᴅ™
-
+» 𝐆ɪᴛʜᴜʙ Pᴀɢᴇ : https://Github.com/Otazuki004/
 » 𝐑ᴇᴘᴏ : http://github.com/Otazuki004/Vexera-
 
 ★━━━━━━━━━━━━━━★""")
