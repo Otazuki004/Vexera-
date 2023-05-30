@@ -16,7 +16,7 @@ async def alive(_, message):
     await asyncio.sleep(5)
     await message.delete()
     alive = await message.reply_animation(HS, caption="...")
-    await alive.edit_caption(f"Hᴇʏ Usᴇʀ,\n ɪ ᴀᴍ ᴀʟɪᴠᴇ
+    await alive.edit_caption(f"""Hᴇʏ Usᴇʀ,\n ɪ ᴀᴍ ᴀʟɪᴠᴇ
 
 ★━━━━━━━━━━━━━━━━━★
 
@@ -28,7 +28,7 @@ async def alive(_, message):
 
 » ʀᴇᴘᴏ : [Here](http://github.com/Otazuki004/Vexera-)
 
-★━━━━━━━━━━━━━━━━━★")
+★━━━━━━━━━━━━━━━━━★""")
 
 
 @HS.on_message(filters.command("ping"))
