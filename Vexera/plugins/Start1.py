@@ -60,8 +60,8 @@ I ᴀᴍ Vᴇxᴇʀᴀ I Hᴀᴠᴇ Cᴏᴏʟ Fᴇᴡᴛᴜʀᴇs
 Lᴀsᴛ Uᴘᴅᴀᴛᴇ : 18:3:23
 Pᴀᴛᴄʜ Nᴀᴍᴇ : Bᴇᴛᴀ
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-Nᴇxᴛ Pᴀᴛᴄʜ Dᴀᴛᴇ : 30:4:23
-Nᴇxᴛ Pᴀᴛᴄʜ Nᴀᴍᴇ : Ultra
+Nᴇxᴛ Pᴀᴛᴄʜ Dᴀᴛᴇ : 13:6:23
+Nᴇxᴛ Pᴀᴛᴄʜ Nᴀᴍᴇ : Project Admin
 
 Click Help To know My Ultra Powers⚡**
 """
@@ -73,12 +73,7 @@ buttons = [
         )
     ],
     [
-        
-        InlineKeyboardButton(
-            text="𓆩𝗧ᴏᴏɴ 𝗟ɪɴᴋᴢ𓆪", url="https://telegram.dog/Toon_LinkZ"
-        ),
-
-InlineKeyboardButton("📚 Help", 
+        InlineKeyboardButton("📚 Help", 
 callback_data="help"),
     ],
     [
