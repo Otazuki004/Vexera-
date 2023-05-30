@@ -73,14 +73,14 @@ buttons = [
         )
     ],
     [
-        InlineKeyboardButton("📚 Help", 
+        InlineKeyboardButton("📚 Help 📚", 
 callback_data="help"),
     ],
     [
         InlineKeyboardButton(
             text="[► Support ◄]", url=f"https://telegram.dog/FutureCity005"
         ),
-        InlineKeyboardButton(text="📢 Updates", url="https://telegram.dog/Updates004"),
+        InlineKeyboardButton(text="📢 Updates", url="https://telegram.dog/Hyper_Speed0"),
     ],
 ]
 
