@@ -6,14 +6,15 @@ from Vexera import get_readable_time, StartTime
 from Vexera import BOT as HS
 
 
-load = "Lᴏᴀᴅɪɴɢ"
+load = "Lᴏᴀᴅɪɴɢ..."
 
 
 @HS.on_message(filters.command("alive"))
 async def alive(_, message):
     name = (await HS.get_me()).first_name
-    otha = await HS.send_message(message.chat.id, load)
-    await asyncio.sleep(5)
+    otha = await HS.send_photo(message.chat.id, "https://telegra.ph/file/01bbb33d37c1f4f12c55e.jpg")
+    await otha.edit_caption(load)
+    await asyncio.sleep(3)
     await otha.edit_caption(f"""Hᴇʏ Usᴇʀ,\n ɪ ᴀᴍ ᴀʟɪᴠᴇ
 
 ★━━━━━━━━━━━━━━━━━★
