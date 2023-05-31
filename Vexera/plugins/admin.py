@@ -3,7 +3,7 @@ from pyrogram.types import ChatPrivileges
 from Vexera import BOT as HS
 
 
-@HS.on_message(filters.command(["promote","fpromote"]))
+@HS.on_message(filters.command(["promote","fpromote"]) & filters.group)
 async def promote_member(_, message):
      if message.reply_to_message:
           user_id = message.reply_to_message.from_user.id
@@ -30,7 +30,7 @@ async def promote_member(_, message):
                      
 
 
-@HS.on_message(filters.command(["pin","unpin"]))
+@HS.on_message(filters.command(["pin","unpin"]) & filters.group)
 async def messages_pin(_, message):
       if not message.reply_to_message:
            return await HS.send_message(message.chat.id, "Reply bruh?")
@@ -54,7 +54,7 @@ async def messages_pin(_, message):
                return await HS.send_message(message.chat.id, f"Successfully [UnPinned]({link})")
 
 
-@HS.on_message(filters.command("invite"))
+@HS.on_message(filters.command("invite") & filters.group)
 async def invite_link(_, message):
      chat_id = message.chat.id
      try:
@@ -63,7 +63,7 @@ async def invite_link(_, message):
          return await HS.send_message(message.chat.id, f"Somthing Wrong Happens:\n{e}")
      return await message.edit(str(link))
 
-@HS.on_message(filters.command("admins"))
+@HS.on_message(filters.command("admins") & filters.group)
 async def admins_list(_, message):
      chat_id = message.chat.id
      title = message.chat.title
@@ -78,7 +78,7 @@ async def admins_list(_, message):
      return await msg.edit(mm)
      
 
-@HS.on_message(filters.command("del"))
+@HS.on_message(filters.command("del") & filters.group)
 async def delete_message(_, message):
      if message.reply_to_message:
          try:
@@ -91,7 +91,7 @@ async def delete_message(_, message):
 
 
 
-@HS.on_message(filters.command("ban"))
+@HS.on_message(filters.command("ban") & filters.group)
 async def ban_member(_, message):
     if message.reply_to_message:
          user_id = message.reply_to_message.from_user.id  
@@ -108,7 +108,7 @@ async def ban_member(_, message):
     return await HS.send_message(message.chat.id, f"=> {name} Has Been Banned!")
 
 
-@HS.on_message(filters.command("unban"))
+@HS.on_message(filters.command("unban") & filters.group)
 async def unban_member(_, message):
     if message.reply_to_message:
          user_id = message.reply_to_message.from_user.id  
@@ -125,7 +125,7 @@ async def unban_member(_, message):
     return await HS.send_message(message.chat.id, f"=> {name} Has Been UnBanned!")
 
 
-@HS.on_message(filters.command("purge"))
+@HS.on_message(filters.command("purge") & filters.group)
 async def purge(_, message):
     chat_id = message.chat.id
     if not message.reply_to_message:
