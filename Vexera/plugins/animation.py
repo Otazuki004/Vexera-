@@ -53,7 +53,7 @@ love_ani = [
 @HS.on_message(
     filters.command("love"))
 async def love(_, m):
-    msg = await HS.send_message(message.chat.id, "💑")
+    msg = await HS.send_message(msg.chat.id, "💑")
     for x in range(13):
         await msg.edit_text(love_ani[x % 13])
         time.sleep(1)
