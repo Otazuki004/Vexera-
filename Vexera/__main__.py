@@ -19,6 +19,6 @@ Vᴇxᴇʀᴀ Տᴛᴀʀᴛᴇᴅ Տᴜᴄᴄᴇssғᴜʟʟʏ
 if __name__ == "__main__":
     BOT.run()
     with BOT:
-       BOT.send_message(-1001768984791, START)
+       BOT.send_message(-1001859707851, START)
         
  
