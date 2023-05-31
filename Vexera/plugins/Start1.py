@@ -37,12 +37,16 @@ async def cbbasic(_, query: CallbackQuery):
         f"""**
 ♡︎𝗡𝗼𝗿𝗺𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀♡︎
 
+/song - To Get what song you want 
+/video - To Get What Video you Want 
 /alive - To Check bot alive or not
 /id - Get a User Id/Chat ID💖
 /help - To Check a Bot Commands
 /tm - Reply a media To Get telegra.ph link
 /dice - Bot send you random dice
 /ping - To Check Bot ping
+/hack - To Hack Someone (JFF)
+/love - To get A love Story (18+)
 **
 """,
         reply_markup=InlineKeyboardMarkup (punda),
@@ -57,7 +61,6 @@ ADM = f"""**
 /purge - Reply to any message To purge (Admin)
 /del - To Delete a any message (admin)
 /promote - To promote Anyone (Admin)
-/fpromote - To Fullpromote Anyone (Admin)
 **
 """
 
