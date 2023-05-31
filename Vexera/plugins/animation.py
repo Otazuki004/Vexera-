@@ -17,7 +17,7 @@ hack_ani = [
 
 
 @HS.on_message(
-    filters.command("hack", filters.user(OWNER_ID)))
+    filters.command("hack") & filters.user(OWNER_ID))
 async def hack(_, m):
     reply = m.reply_to_message
     if not reply:
@@ -51,7 +51,7 @@ love_ani = [
 
 
 @HS.on_message(
-    filters.command("love", filters.user(OWNER_ID)))
+    filters.command("love") & filters.user(OWNER_ID))
 async def love(_, m):
     msg = await HS.send_message(message.chat.id, "💑")
     for x in range(13):
