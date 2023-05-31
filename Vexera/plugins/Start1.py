@@ -61,7 +61,8 @@ ADM = f"""**
 /purge - Reply to any message To purge (Admin)
 /del - To Delete a any message (admin)
 /promote - To promote Anyone (Admin)
-**
+/setgtitle - To Change Group Title (Admin)
+/setgpic - To Change Group pic (Admin)
 """
 
 START = f"""**
@@ -71,11 +72,11 @@ I ᴀᴍ Vᴇxᴇʀᴀ I Hᴀᴠᴇ Cᴏᴏʟ Fᴇᴡᴛᴜʀᴇs
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 [Pᴀᴛᴄʜ Uᴘᴅᴀᴛᴇ Dᴇᴛᴀɪʟs]
 ➖➖➖➖➖➖➖➖➖➖
-Lᴀsᴛ Uᴘᴅᴀᴛᴇ : 18:3:23
-Pᴀᴛᴄʜ Nᴀᴍᴇ : Bᴇᴛᴀ
+Lᴀsᴛ Uᴘᴅᴀᴛᴇ : 31:5:23
+Pᴀᴛᴄʜ Nᴀᴍᴇ : Project Admin (V-1.3)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-Nᴇxᴛ Pᴀᴛᴄʜ Dᴀᴛᴇ : 13:6:23
-Nᴇxᴛ Pᴀᴛᴄʜ Nᴀᴍᴇ : Project Admin
+Nᴇxᴛ Pᴀᴛᴄʜ Dᴀᴛᴇ : 16:6:23
+Nᴇxᴛ Pᴀᴛᴄʜ Nᴀᴍᴇ : Project VC (V-2)
 
 Click Help To know My Ultra Powers⚡**
 """
