@@ -3,4 +3,5 @@ tgcrypto
 asyncio
 telegraph 
 tracemoepy
-
+wget
+yt_dlp
