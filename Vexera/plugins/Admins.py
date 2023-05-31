@@ -219,33 +219,3 @@ async def setgrouptitle(_, m):
                photo = await reply.download()
                await bot.set_chat_photo(chat.id, photo=photo)
                await msg.edit_text("**Successfully group photo Applied**")
-               
-@bot.on_message(filters.command("purge"))
-async def delete(_, m):
-	chat_id = message.chat.id
-     reply = m.reply_to_message
-     chat = m.chat
-     user = m.from_user
-     user_stats = await bot.get_chat_member(chat.id, user.id)
-     bot_stats = await bot.get_chat_member(chat.id, "self")
-     if not bot_stats.privileges:
-           return await m.reply_text("Make Me Admin!")
-     elif not user_stats.privileges:
-            return await m.reply_text("Only Admins are allowed to use this command!")    
-     elif not reply:
-            return  await m.reply_text("reply to message for deleting")
-     elif not bot_stats.privileges.can_delete_messages:
-              return await m.reply_text("**I'm missing the permission of**:\n`can_delete_messages`")
-     elif not user_stats.privileges.can_delete_messages:
-              return await m.reply_text("**your are missing the permission of**:\n`can_delete_messages`")
-     elif user_stats.privileges.can_delete_messages:
-     	reply_msg_id = message.reply_to_message.id
-        message_id = message.id
-        message_ids = []
-        for ids in range(reply_msg_id, message_id):
-            message_ids.append(ids)
-        try:
-           await bot.delete_messages(chat_id=chat_id, message_ids=message_ids)
-           except Exception as e:
-              return await bot.send_message(message.chat.id, f"Somthing wrong Happens:\n{e}")
-        return await bot.send_message(message.chat.id, f"=> Purged {len(message_ids)} Messages")
