@@ -5,3 +5,6 @@ telegraph
 tracemoepy
 wget
 yt_dlp
+youtube-search
+youtube_dl
+gpytranslate
