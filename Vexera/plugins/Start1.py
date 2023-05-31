@@ -35,7 +35,7 @@ async def cbbasic(_, query: CallbackQuery):
 async def cbbasic(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""**
-♡︎𝗛𝗲𝗹𝗽 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀♡︎
+♡︎𝗡𝗼𝗿𝗺𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀♡︎
 
 /id - Get a User Id/Chat ID💖
 /tm - Reply a media To Get telegra.ph link
@@ -46,7 +46,15 @@ async def cbbasic(_, query: CallbackQuery):
     )
 
 ADM = f"""**
-Coming soon❤️
+/admins - To Get Admin list in your group 
+/ban - Reply to ban Anyone (Admin)
+/unban - Reply to Unban Anyone (Admin)
+/pin - To Pin a any message (Admin)
+/unpin - To unpin a any message (Admin)
+/purge - Reply to any message To purge (Admin)
+/del - To Delete a any message (admin)
+/promote - To promote Anyone (Admin)
+/fpromote - To Fullpromote Anyone (Admin)
 **
 """
 
