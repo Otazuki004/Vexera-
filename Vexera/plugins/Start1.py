@@ -37,9 +37,12 @@ async def cbbasic(_, query: CallbackQuery):
         f"""**
 ♡︎𝗡𝗼𝗿𝗺𝗮𝗹 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀♡︎
 
+/alive - To Check bot alive or not
 /id - Get a User Id/Chat ID💖
+/help - To Check a Bot Commands
 /tm - Reply a media To Get telegra.ph link
 /dice - Bot send you random dice
+/ping - To Check Bot ping
 **
 """,
         reply_markup=InlineKeyboardMarkup (punda),
