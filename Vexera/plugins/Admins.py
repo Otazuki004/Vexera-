@@ -56,13 +56,13 @@ async def unban(_, message):
 async def demotes(_, message):
    try:
        if not message.reply_to_message:
-             return await message.reply("**Reply to Someone.**")
+             return await message.reply("Reply to Someone")
        chat_id = message.chat.id
        admin = message.from_user
        user = message.reply_to_message.from_user
        check = await bot.get_chat_member(chat_id, admin.id)
        if check.privileges.can_promote_members:
-            msg = await message.reply("**Demoting Process.**")
+            msg = await message.reply("Demoting...")
             await message.chat.promote_member(
                user_id=user.id,
                privileges=pyrogram.types.ChatPrivileges(
@@ -87,7 +87,7 @@ async def demotes(_, message):
 async def promoting(_, message):
      global new_admin
      if not message.reply_to_message:
-         return await message.reply("**Reply someone To Promoting.**")
+         return await message.reply("Reply someone To Promoting")
      reply = message.reply_to_message
      chat_id = message.chat.id
      new_admin = reply.from_user
@@ -95,7 +95,7 @@ async def promoting(_, message):
      user_stats = await bot.get_chat_member(chat_id, admin.id)
      bot_stats = await bot.get_chat_member(chat_id, "self")
      if not bot_stats.privileges:
-         return await message.reply("**Lol! Make Me Admin When!**")
+         return await message.reply("When Make Me Admin?")
      elif not user_stats.privileges:
          return await message.reply("**You Needs Admin Rights to Control Me (~_^)!**")
      elif not bot_stats.privileges.can_promote_members:
@@ -103,7 +103,7 @@ async def promoting(_, message):
      elif not user_stats.privileges.can_promote_members:
          return await message.reply("**Your missing the admin rights `can_promote_members`**")
      elif user_stats.privileges.can_promote_members:
-          msg = await message.reply_text("**Promoting Process.**")
+          msg = await message.reply_text("Promoting...")
           await bot.promote_chat_member(
             chat_id,
             new_admin.id,
