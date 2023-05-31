@@ -26,7 +26,7 @@ async def alive(_, message):
 » 𝐆ɪᴛʜᴜʙ Pᴀɢᴇ : https://Github.com/Otazuki004/
 » 𝐑ᴇᴘᴏ : http://github.com/Otazuki004/Vexera-
 
-★━━━━━━━━━━━━━━★""")
+- 𝗛ʏᴘᴇʀ 𝗦ᴘᴇᴇᴅ™""")
 
 
 @HS.on_message(filters.command("ping"))
