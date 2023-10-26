@@ -31,11 +31,11 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 
-API_ID = os.getenv("API_ID")
-API_HASH = os.getenv("API_HASH")
-SESSION = os.getenv("SESSION")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = os.getenv("OWNER_ID")
+API_ID = "10187126"
+API_HASH = "ff197c0d23d7fe54c89b44ed092c1752"
+SESSION = ""
+BOT_TOKEN = "ff197c0d23d7fe54c89b44ed092c1752'
+OWNER_ID = "5965055071"
 
 
 print ("[Vexera]: Pyrogram Starting")
