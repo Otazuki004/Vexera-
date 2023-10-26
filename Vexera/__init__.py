@@ -1,7 +1,6 @@
 import logging
 import os
 import time
-
 from pyrogram import Client
 
 # enable logging
@@ -37,7 +36,7 @@ API_HASH = os.getenv("API_HASH")
 SESSION = os.getenv("SESSION")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = os.getenv("OWNER_ID")
-badword = os.getenv("BADASS")
+badword = "punda', "kena", "fuck"
 
 
 print ("[Vexera]: Pyrogram Starting")
