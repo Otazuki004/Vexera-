@@ -1,6 +1,6 @@
 from pyrogram import filters
 
-from Vexera import BOT as Client
+from Vexera.__init__ import BOT as Client
 
 HANDLER = ["~", ".", "!", "/"]
 
