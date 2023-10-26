@@ -1,4 +1,4 @@
-from Vexera import BOT as Client 
+from Vexera.__init__ import BOT as Client 
 import random 
 from pyrogram import filters
 
