@@ -1,4 +1,4 @@
-from Vexera import BOT
+from Vexera.__init__ import BOT
 from pyrogram import __version__ as uuu
 
 PHOTO = "https://graph.org//file/44772fd4c942df289fb05.jpg"
