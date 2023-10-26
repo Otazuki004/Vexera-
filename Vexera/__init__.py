@@ -34,7 +34,7 @@ def get_readable_time(seconds: int) -> str:
 API_ID = "10187126"
 API_HASH = "ff197c0d23d7fe54c89b44ed092c1752"
 SESSION = ""
-BOT_TOKEN = "ff197c0d23d7fe54c89b44ed092c1752'
+BOT_TOKEN = "ff197c0d23d7fe54c89b44ed092c1752"
 OWNER_ID = "5965055071"
 
 
