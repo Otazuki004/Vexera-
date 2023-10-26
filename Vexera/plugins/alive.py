@@ -2,8 +2,8 @@ import time
 import random 
 import asyncio
 from pyrogram import filters, __version__ as pyrover
-from Vexera import get_readable_time, StartTime
-from Vexera import BOT as HS
+from Vexera.__init__ import get_readable_time, StartTime
+from Vexera.__init__ import BOT as HS
 
 
 load = "Lᴏᴀᴅɪɴɢ..."
