@@ -1,5 +1,5 @@
 from pyrogram import filters, enums
-from Vexera import BOT as bot
+from Vexera.__init__ import BOT as bot
 from pyrogram.types import *
 import os, io, time
 
