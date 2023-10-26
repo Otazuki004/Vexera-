@@ -6,4 +6,5 @@ from Vexera import badword as badd
 
 @bot.on_message(filters.command("{badd}"))
 async def delete(_, m):
+  ls
 
