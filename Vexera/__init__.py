@@ -2,18 +2,6 @@ import logging
 import os
 import time
 from pyrogram import Client
-from pyrogram import __version__ as uuu
-
-PHOTO = "https://graph.org//file/44772fd4c942df289fb05.jpg"
-
-START = f"""
-────「 Vexera 」────
-Hᴇʏ Usᴇʀs
-Vᴇxᴇʀᴀ Տᴛᴀʀᴛᴇᴅ Տᴜᴄᴄᴇssғᴜʟʟʏ 
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-❍ 𝗣ʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ : {uuu}
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try Me I Have Cool Features 💖 """
 
 # enable logging
 logging.basicConfig(
@@ -59,9 +47,3 @@ BOT = Client(
     bot_token=BOT_TOKEN,
     plugins=dict(root="Vexera"))
 
-
-
-if __name__ == "__main__":
-    BOT.run()
-    with BOT:
-       BOT.send_message(-1001859707851, START)
