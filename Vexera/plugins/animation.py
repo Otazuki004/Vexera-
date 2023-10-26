@@ -1,7 +1,7 @@
 import time
 from pyrogram import filters
-from Vexera import BOT as HS
-from Vexera import OWNER_ID
+from Vexera.__init__ import BOT as HS
+from Vexera.__init__ import OWNER_ID
 
 hack_ani = [
     "`Hacking... 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `\n\n\n  TERMINAL:\nDownloading Bruteforce-Telegram-0.1.tar.gz (9.3 kB)",
