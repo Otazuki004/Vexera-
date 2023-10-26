@@ -1,12 +1,13 @@
 from pyrogram import filters
 import random 
-from Vexera import BOT as Client
+from Vexera.__init__ import BOT as Client
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
 STA1= f"""**
 ── 𝙑𝙚𝙭𝙚𝙧𝙖 ──
 
-۞ I'ᴍ ᴀɴɪᴍᴇ ʙᴀsᴇᴅ Pᴏᴡᴇʀғᴜʟ Bᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ Tᴏᴏɴ LɪɴᴋZ.
+۞ I'ᴍ ᴀɴɪᴍᴇ ʙᴀsᴇᴅ Pᴏᴡᴇʀғᴜʟ Bᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝗛ʏᴘᴇʀ 𝗦ᴘᴇᴇᴅ™
+.
 ۞ I'ᴍ Aʟᴡᴀʏs Wᴏʀᴋ & Uʟᴛʀᴀ Sᴘᴇᴇᴅ & Hᴇʟᴘ Tᴏ ᴍᴀɴɢᴇ Yᴏᴜʀ ɢʀᴏᴜᴘ ♡
 ۞ Usᴇ ɴᴏᴡ!
 """
