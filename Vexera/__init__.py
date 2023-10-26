@@ -37,7 +37,7 @@ API_HASH = os.getenv("API_HASH")
 SESSION = os.getenv("SESSION")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = os.getenv("OWNER_ID")
-
+badword = os.getenv("BADASS")
 
 
 print ("[Vexera]: Pyrogram Starting")
