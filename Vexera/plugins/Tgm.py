@@ -1,5 +1,5 @@
 import os
-from Vexera import BOT as bot
+from Vexera.__init__ import BOT as bot
 from pyrogram import filters, Client
 from telegraph import upload_file
 
