@@ -6,7 +6,7 @@ import yt_dlp
 from pyrogram import filters
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
-from Vexera import BOT as HS
+from Vexera.__init__ import BOT as HS
 
 
 @HS.on_message(filters.command("video"))
