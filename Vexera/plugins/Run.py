@@ -6,7 +6,7 @@ from subprocess import getoutput as run
 from pyrogram import filters
 
 from Vexera.__init__ import BOT as Client
-from Vexera import OWNER_ID
+from Vexera.__init__ import OWNER_ID
 
 HANDLER = ["~", ".", "!", "/"]
 
