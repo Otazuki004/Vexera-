@@ -24,11 +24,11 @@ def logs(_, m):
     msg.delete()
 
 
-@Client.on_message(filters.user(OWNER_ID) & filters.command("sh", prefixes=HANDLER))
-def sh(_, m):
-    code = m.text.replace(m.text.split(" ")[0], "")
+@Client.on_message(filters.user(OWNER_ID) & filters.command("sh"))
+def sh(_, message):
+    code = message.text.replace(m.text.split(" ")[0], "")
     x = run(code)
-    m.reply_text(f"**SHELL**: `{code}`\n\n**OUTPUT**:\n`{x}`")
+    message.reply_text(f"**SHELL**: `{code}`\n\n**OUTPUT**:\n`{x}`")
 
 
 @Client.on_message(filters.user(OWNER_ID) & filters.command("eval", prefixes=HANDLER))
