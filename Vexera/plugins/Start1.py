@@ -58,7 +58,6 @@ ADM = f"""**
 /unban - Reply to Unban Anyone (Admin)
 /pin - To Pin a any message (Admin)
 /unpin - To unpin a any message (Admin)
-/purge - Reply to any message To purge (Admin)
 /del - To Delete a any message (admin)
 /promote - To promote Anyone (Admin)
 /setgtitle - To Change Group Title (Admin)
