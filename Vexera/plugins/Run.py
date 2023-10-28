@@ -25,10 +25,10 @@ def logs(_, m):
 
 
 @Client.on_message(filters.user(OWNER_ID) & filters.command("sh"))
-def sh(_, message):
-    code = message.text.replace(m.text.split(" ")[0], "")
-    x = run(code)
-    message.reply_text(f"**SHELL**: `{code}`\n\n**OUTPUT**:\n`{x}`")
+async def sh(_, message):
+    code = await message.text.replace(m.text.split(" ")[0], "")
+    x = await run(code)
+    await message.reply_text(f"**SHELL**: `{code}`\n\n**OUTPUT**:\n`{x}`")
 
 
 @Client.on_message(filters.user(OWNER_ID) & filters.command("eval", prefixes=HANDLER))
