@@ -3,9 +3,8 @@ import sys
 import traceback
 from subprocess import getoutput as run
 from pyrogram import filters
-from Hydra import prefix
-from Hydra import OWNER_ID
-from Hydra import pub as bot
+from Vexera.__init__ import OWNER_ID
+from Vexera.__init__ import BOT as bot
 
 
 @bot.on_message(filters.user(OWNER_ID) & filters.command("logs", prefixes=prefix))
