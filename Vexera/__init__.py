@@ -35,7 +35,7 @@ API_ID = "10187126"
 API_HASH = "ff197c0d23d7fe54c89b44ed092c1752"
 SESSION = ""
 BOT_TOKEN = "6158344416:AAH8T7GwENbnkRmNhHjenlwIVQPkrGQoex0"
-OWNER_ID = "5965055071"
+OWNER_ID = "6568136732"
 
 
 print ("[Vexera]: Pyrogram Starting")
