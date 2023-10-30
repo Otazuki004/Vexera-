@@ -17,7 +17,7 @@ async def aexec(code, client, message):
     return await locals()["__aexec"](client, message)
 
 
-@bot.on_message(filters.command(["run","eval"],["?","!",".","*","/","$"]))
+@bot.on_message(filters.command("eval"))
 async def eval(client, message):
     if len(message.text.split()) <2:
           return await message.reply_text("`Input Not Found!`")
